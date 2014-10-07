@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button {
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.button > div {
+    width: 150px;
+    height: 50px;
+    border: 3px solid #808080;
+    box-shadow: 0 0 1px #808080;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 26pt;
+    margin-left: 50px;
+    padding-top: 5px;
+    float: left;
+}
+
+.button > div:hover {
+    background-color: #FFE97F;
+}
+
+.button > div:active {
+    background-color: #7F0000;
+}
+
+.clock {
+    height: 300px;
+}
+
+.clock__dial {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #808080;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    margin-left: 475px;
+}
+
+.clock__minutes {
+    height: 75px;
+    margin-top: 75px;
+    margin-left: 150px;
+    border-left: 2px solid #808080;
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.clock__seconds {
+    height: 125px;
+    margin-top: 25px;
+    margin-left: 150px;
+    border-left: 2px solid #808080;
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.notification {
+    height: 100px;
+}
+
+.notification__message {
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 26pt;
+    margin-left: 230px;
+    margin-top: 50px;
+}
